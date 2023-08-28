@@ -13,7 +13,7 @@ import PlacePage from "./pages/PlacePage";
 import BookingsPage from "./pages/BookingsPage";
 import BookingPage from "./pages/BookingPage";
 
-axios.defaults.baseURL = "https://vacationhub-api.onrender.com/api";
+axios.defaults.baseURL = "https://vacation-hub-api.vercel.app/api";
 axios.defaults.withCredentials = true;
 
 function App() {
