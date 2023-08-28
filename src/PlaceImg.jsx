@@ -8,6 +8,6 @@ export default function PlaceImg({place,index=0,className=null}) {
     className = 'object-cover';
   }
   return (
-    <img className={className} src={'https://vacation-hub-api.vercel.app/'+place.photos[index]} alt=""/>
+    <img className={className} src={'https://vacationhub-api.onrender.com/'+place.photos[index]} alt=""/>
   );
 }
